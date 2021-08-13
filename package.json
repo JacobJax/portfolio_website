@@ -4,6 +4,7 @@
   "description": "personal website",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss build -i ./css/styles.css -o ./css/dist.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
