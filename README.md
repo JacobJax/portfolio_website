@@ -9,6 +9,5 @@ Built to give more details about me and showcase some of my work.
 * Tailwind CSS
 
 
-> **Still under construction
-> 
-> **Alot of improvements are still underway
+> **Still under construction🏗**
+> **Alot of improvements are still underway**
