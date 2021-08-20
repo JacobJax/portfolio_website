@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        fblue: "#121434"
+        fblue: "#121434",
+        fblue_baby: "#7EC8E3",
+        faqua: "#B4FEE7"
       },
       textColor: {
         fblue: "#121434"
