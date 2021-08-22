@@ -21,6 +21,10 @@ module.exports = {
         h50: "50vh",
         h80: "80vh",
         h90 : "95vh"
+      },
+      transitionDuration: {
+        '2000': '2000ms',
+        '3000': '3000ms'
       }
     },
   },
