@@ -7,10 +7,11 @@
     <title>Jacob Odero</title>
     <link rel="stylesheet" href="./css/dist.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="./js/app.js" defer></script>
 </head>
 <body>
-    <div class="navbar py-2 sticky top-0 bg-white shadow-md">
-        <nav class=" flex justify-between items-center text-fblue mx-8 md:mx-20 lg:mx-60">
+    <div class="navbar z-10 py-2 sticky top-0 bg-white shadow-md">
+        <nav class="navbar-cont flex justify-between items-center text-fblue mx-8 md:mx-20 lg:mx-60">
             <h1 class="text-2xl font-space_mono font-bold">Jax</h1>
             <ul class="flex gap-4 font-roboto_mono">
                 <li class="hover:text-gray-300"><a href="#hero" >Home</a></li>
@@ -21,7 +22,7 @@
     </div>
     
     <section id="hero" class="bg-fblue text-white h-h50 grid place-items-center">
-        <div class="mx-8 md:mx-20 lg:mx-60">
+        <div class="hero-cont mx-8 md:mx-20 lg:mx-60 transform -translate-y-16 opacity-0">
             <h3 class="text-lg font-roboto_mono">Hello world</h3><br>
             <h1 class="text-5xl font-space_mono mb-2">AM Jacob Odero</h1>
             <h3 class="text-2xl font-roboto">...and I can center a <code class="bg-black rounded-lg px-2 text-yellow-200">div</code></h3>
@@ -34,7 +35,7 @@
     </div>
 
     <section id="about">
-        <div class="about-cont mx-8 md:mx-20 lg:mx-60 my-8">
+        <div class="about-cont mx-8 md:mx-20 lg:mx-60 my-8 transform -translate-y-16 opacity-0">
             <div class="md:flex gap-5">
                 <div class="about-text self-center mt-2 font-space_g mb-2 flex-shrink md:text-sm md:w-2/3">
                     <p class="pb-1">Am a Junior Software and Web Developer based in Nairobi, Kenya. Am passionate about Technology and believe; if implemented at the right time, for the right purpose, technology could solve alot of the problems we face today.</p>
@@ -51,7 +52,7 @@
     </section>
 
     <section class="wh-do">
-        <div class="mx-8 md:mx-20 lg:mx-60 my-8 bg-faqua rounded-md p-4">
+        <div class="wh-do-cont mx-8 md:mx-20 lg:mx-60 my-8 bg-faqua rounded-md p-4 transform -translate-y-16 opacity-0">
             <h1 class="font-space_mono text-center text-2xl my-2">What i do</h1>
             <hr>
             <div class="cards mt-4 md:flex gap-4 font-space_g">
@@ -87,7 +88,7 @@
     </div>
     
     <section class="projects bg-gray-200 py-2 text-white">
-        <div class="projects-cont mx-8 md:mx-20 lg:mx-60 font-space_g">
+        <div class="projects-cont mx-8 md:mx-20 lg:mx-60 font-space_g transform -translate-y-16 opacity-0">
             <div>
                 <div class="project rounded-lg shadow-lg mt-2 my-4 md:flex gap-4 bg-fblue">
                     <img src="./img/home (2).PNG" alt="mafom homepage"  class="md:w-1/2 p-2 rounded-xl">
@@ -176,9 +177,9 @@
         <hr>
     </div>
 
-    <section class="honorable my-2">
-        <div class="mx-8 md:mx-20 lg:mx-60 md:flex gap-4">
-            <div class="proj text-sm p-4 rounded-lg shadow-lg my-2">
+    <section class="mentions my-2">
+        <div class="mentions-cont mx-8 md:mx-20 lg:mx-60 md:flex gap-4 transform -translate-y-16 opacity-0">
+            <div class="proj text-sm p-4 rounded-lg shadow-sm hover:shadow-lg my-2">
                 <h1 class="font-roboto pb-2">P-Blogs</h1>
                 <div class="text-xs font-space_mono">
                     <button class="bg-green-200 px-2 rounded-sm text-black mb-1 mr-1">HTML</button>
@@ -194,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="proj text-sm p-4 rounded-lg shadow-lg my-2">
+            <div class="proj text-sm p-4 rounded-lg shadow-sm hover:shadow-lg my-2">
                 <h1 class="font-roboto pb-2">Flask List</h1>
                 <div class="text-xs font-space_mono">
                     <button class="bg-green-200 px-2 rounded-sm text-black mb-1 mr-1">HTML</button>
@@ -210,7 +211,7 @@
                 </div>
             </div>
 
-            <div class="proj text-sm p-4 rounded-lg shadow-lg my-2">
+            <div class="proj text-sm p-4 rounded-lg shadow-sm hover:shadow-lg my-2">
                 <h1 class="font-roboto pb-2">IG-Bot</h1>
                 <div class="text-xs font-space_mono">
                     <button class="bg-green-200 px-2 rounded-sm text-black mb-1 mr-1">Python</button>
